@@ -1,0 +1,78 @@
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #293241;
+  overflow-y: scroll;
+
+  .content {
+    display: block;
+    width: 100%;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+    color: #fff;
+
+    h2 {
+      font-size: 2.2rem;
+      font-weight: 600;
+      text-shadow: 2px 2px 4px black;
+
+      span {
+        text-align: center;
+        font-size: 1.8rem;
+        font-weight: 300;
+        text-shadow: 2px 2px 4px black;
+      }
+    }
+
+    .rating {
+      font-size: 1.3rem;
+      margin-bottom: 4rem;
+    }
+
+    .plot {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0px -1rem 2rem;
+
+      img {
+        flex: 1 1 50%;
+        max-width: 18.7rem;
+        border-radius: 5px;
+        box-shadow: 0px 4px 6px black;
+      }
+
+      p {
+        font-size: 1.2rem;
+        line-height: 130%;
+        flex: 1 1 50%;
+        padding: 1rem;
+        text-shadow: 2px 2px 4px black;
+      }
+    }
+
+    .close {
+      display: inline-block;
+      margin-left: 4rem;
+      padding: 1rem 2rem;
+      font-size: 1.1rem;
+      font-weight: 700;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+      appearance: none;
+      cursor: pointer;
+      box-shadow: 0px 4px 6px black;
+      background: #ee6c4d;
+      color: #fff;
+      transition: 0.4s ease-out;
+
+      &:hover {
+        background: #f04e26;
+      }
+    }
+  }
+}
