@@ -16,7 +16,7 @@ class App extends React.Component {
   }
 
   search = (e) => {
-    const apiUrl = "https://www.omdbapi.com/?apikey=3b592e53";
+    const apiUrl = "http://www.omdbapi.com/?apikey=3b592e53";
     if (e.key === "Enter") {
       axios(apiUrl + "&s=" + this.state.userInput).then(({ data }) => {
         let results = data.Search;
@@ -35,7 +35,7 @@ class App extends React.Component {
   };
 
   openPopup = (id) => {
-    const apiUrl = "https://www.omdbapi.com/?apikey=3b592e53";
+    const apiUrl = "http://www.omdbapi.com/?apikey=3b592e53";
     axios(apiUrl + "&i=" + id).then(({ data }) => {
       let result = data;
       this.setState({
