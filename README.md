@@ -1,7 +1,7 @@
 # Movie Selection (React)
 
-- Link of the project: https://kevschmidt.github.io/react--country/
-- Clone the repository: ``` git clone git@github.com:kevSchmidt/react--country.git ```
+- Link of the project: https://kevschmidt.github.io/react--movie-selection/
+- Clone the repository: ``` git clone git@github.com:kevSchmidt/react--movie-selection.git ```
 
 ### Tools:
 <h1>
